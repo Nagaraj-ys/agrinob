@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_5p-jAHcdEeq0P-CgSVXT7Q" name="History_Noble_Agri" dataPackage="_5p-jAXcdEeq0P-CgSVXT7Q" Server="Localhost 127.0.0.1" FilePath="D:/Noble_source/source/History.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;\t&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Tabulation"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5p-jAXcdEeq0P-CgSVXT7Q" name="default" dataManager="_5p-jAHcdEeq0P-CgSVXT7Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5p-jAncdEeq0P-CgSVXT7Q" id="_ZyoW8HcdEeq0P-CgSVXT7Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5p-jA3cdEeq0P-CgSVXT7Q" label="FileName" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5p-jBHcdEeq0P-CgSVXT7Q" label="NumberOfRecords" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_5p-jBXcdEeq0P-CgSVXT7Q" label="DateCreated" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
